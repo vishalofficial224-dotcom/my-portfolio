@@ -37,21 +37,21 @@
     --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
-/* Dark Theme */
-[data-theme="dark"] {
-    --bg-primary: #0f172a;
-    --bg-secondary: #1e293b;
-    --bg-tertiary: #334155;
-    --text-primary: #f8fafc;
-    --text-secondary: #cbd5e1;
-    --text-muted: #64748b;
-    --accent-primary: #60a5fa;
-    --accent-secondary: #3b82f6;
-    --accent-tertiary: #2563eb;
-    --border-color: #334155;
-    --shadow-color: rgba(0, 0, 0, 0.3);
-    --card-bg: #1e293b;
-}
+    /* Dark Theme */
+    [data-theme="dark"] {
+        --bg-primary: #0f172a;
+        --bg-secondary: #1e293b;
+        --bg-tertiary: #334155;
+        --text-primary: #f8fafc;
+        --text-secondary: #cbd5e1;
+        --text-muted: #64748b;
+        --accent-primary: #60a5fa;
+        --accent-secondary: #3b82f6;
+        --accent-tertiary: #2563eb;
+        --border-color: #334155;
+        --shadow-color: rgba(0, 0, 0, 0.3);
+        --card-bg: #1e293b;
+    }
 
 /* Reset */
 *, *::before, *::after {
@@ -1084,6 +1084,15 @@ body {
     opacity: 1;
     transform: translateY(0);
 }
+
+img {
+   width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
 
 /* ============================================
    Responsive Design
